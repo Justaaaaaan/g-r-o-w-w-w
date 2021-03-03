@@ -1,0 +1,51 @@
+.resizable {
+    background: #ccc;
+    }	
+.draggable {
+    background: white;
+    }
+.homepage_box {
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    z-index: 1; 
+    position: relative; 
+    color: white; 
+    font-size: xx-large; 
+    font-family: Arial, Helvetica, sans-serif;
+    }
+.link:visited {
+    
+}
+.link:hover {
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+.letters-g {
+    color: black;
+    right: 0px;
+    position:absolute;
+    bottom:0px;  
+}
+.letters-r {
+    color: black;
+    left: 0px;
+    position:absolute;
+    bottom:0px;  
+}
+.letters-o {
+    color: black;
+    right: 0px;
+    position:absolute;
+    top:0px;  
+}
+.letters-w {
+    color: black;
+    left: 0px;
+    position:absolute;
+    top:0px;  
+}
