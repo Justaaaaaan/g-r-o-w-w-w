@@ -1,5 +1,5 @@
 $( ".resizable" ).resizable({
-    handles:"n,e,s,w"
+    handles:"n,e,s,w,ne,nw,se,sw"
     // helper: "resizable-helper"
     // containment: "parent"
     // animate: true
