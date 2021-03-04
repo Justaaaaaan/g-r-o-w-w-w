@@ -88,6 +88,3 @@ function mousePressed() {
 }
   
 
-function windowResized() {
-  resizeCanvas(displayWidth, displayHeight);
-}
