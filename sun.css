@@ -3,7 +3,8 @@ html, body {
     max-height: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
-    background-color: orange;
+    background: rgb(255,207,134);
+    background: linear-gradient(0deg, rgba(255,207,134,1) 0%, rgba(164,216,255,1) 50%, rgba(171,247,255,1) 100%);
 }
 
 .sun-solid.icon {
@@ -31,9 +32,19 @@ html, body {
     border-radius: 50%;
 
     margin-top: 50vh;
-    margin-left: 28vw;
+    margin-left: 30vw;
 }
-  
+
+
+.title {
+    position: absolute;
+    font-size: 50vw;
+}
+
+.title::selection{
+    background-color: orange;
+}
+
 .text {
     color: white;
     background-color: white;
@@ -60,19 +71,25 @@ html, body {
 .cloud_1 {
     animation: move 18s linear infinite;
     position: absolute;
-    margin-top: 0vh;
+    margin-top: 9vh;
 }
 
 .cloud_2 {
     animation: move 24s linear infinite;
     position: absolute;
-    margin-top: 9vh;
+    margin-top: 18vh;
 }
 
 .cloud_3 {
     animation: move 12s linear infinite;
     position: absolute;
-    margin-top: 18vh;
+    margin-top: 27vh;
+}
+
+.cloud_4 {
+    animation: move 27s linear infinite;
+    position: absolute;
+    margin-top: 36vh;
 }
 
 @keyframes move {
