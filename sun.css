@@ -1,0 +1,80 @@
+html, body {
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: orange;
+}
+
+.sun-solid.icon {
+    color: #000;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 60vh;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid currentColor;
+    background-color: currentColor;
+    box-shadow:
+        -80px 0 0 -30px currentColor,  80px 0 0 -30px currentColor,  
+        0 -80px 0 -30px currentColor,  0 80px 0 -30px currentColor,  
+        -60px -60px 0 -30px currentColor,  -60px 60px 0 -30px currentColor,  
+        60px -60px 0 -30px currentColor,  60px 60px 0 -30px currentColor;
+}
+
+.sun {
+    background-color: white;
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
+
+    margin-top: 50vh;
+    margin-left: 28vw;
+}
+  
+.text {
+    color: white;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+}
+
+.text::selection {
+    background-color: orange;
+}
+
+.text2 {
+    color: black;
+}
+
+.width {
+    width: fit-content;
+}
+
+.offset {
+    margin-left: 50px;
+}
+
+.cloud_1 {
+    animation: move 18s linear infinite;
+    position: absolute;
+    margin-top: 0vh;
+}
+
+.cloud_2 {
+    animation: move 24s linear infinite;
+    position: absolute;
+    margin-top: 9vh;
+}
+
+.cloud_3 {
+    animation: move 12s linear infinite;
+    position: absolute;
+    margin-top: 18vh;
+}
+
+@keyframes move {
+    to { transform: translateX(100vw);}
+}
