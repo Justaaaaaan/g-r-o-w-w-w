@@ -66,6 +66,7 @@ margin-left: 96vw;
     position: absolute;
     font-size: 10vw;
     margin-left: 40vw;
+    height: 25vw;
 }
 
 .title::selection{
@@ -104,19 +105,19 @@ margin-left: 96vw;
 .cloud_2 {
     animation: move 35s linear infinite;
     position: absolute;
-    margin-top: 18vh;
+    margin-top: 20vh;
 }
 
 .cloud_3 {
     animation: move 39s linear infinite;
     position: absolute;
-    margin-top: 27vh;
+    margin-top: 31vh;
 }
 
 .cloud_4 {
     animation: move 48s linear infinite;
     position: absolute;
-    margin-top: 36vh;
+    margin-top: 42vh;
 }
 
 @keyframes move {

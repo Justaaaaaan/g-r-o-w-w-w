@@ -5,3 +5,15 @@
     color: black;
     font-style: italic;
 }
+
+.link {
+    text-decoration: none;
+}
+
+.letters-g {
+    color: black;
+    right: 15px;
+    position:absolute;
+    bottom:15px;  
+    font-size: 3vw;
+}
