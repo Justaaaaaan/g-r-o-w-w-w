@@ -1,0 +1,179 @@
+body {
+    /* background-color: #062530; */
+    background-color: #041920;
+    /* #147ba1 */
+
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+h1 {
+    color: #5ba3bd;
+    position: absolute;
+    left: 6vw;
+    top: 5vh;
+    font-size: 20vw;
+    animation: fadein_1 1.5s ease-in;
+}
+
+.panel p {
+    color: white;
+    margin-left: 5vw;
+    padding-top: 6vh;
+    width: 25vw;
+    font-size: 1vw;
+    line-height: 2.8vh;
+    
+    animation: fadein_2 1.5s ease-in;
+}
+
+@font-face {
+    font-family: VioletSans;
+    src: url(VioletSans-Regular.woff);
+}
+
+.citation {
+    top: 60vh;
+    left: 7vw;
+    width: 30vw;
+    position: absolute;
+}
+
+.citation p{
+    color: white;
+    font-size: .8vw;
+    animation: fadein_2 1.5s ease-in;
+}
+
+.citation a{
+    animation: fadein_2 1.5s ease-in;
+}
+.panel {
+    position: absolute;
+    width: 35vw;
+    height: 75vh;
+    left: 60vw;
+    top: 12.5vh;
+
+    font-family: VioletSans;
+    /* background-color: #0a3e51; */
+    z-index: -5;
+    
+}
+
+.block{
+    width: 10vw;
+    height: 10vh;
+    background-color: #041920;
+}
+
+.link{
+    color: white;
+    position: absolute;
+    text-align: right;
+    top: 95vh;
+}
+
+a:visited {
+    color: white;
+}
+  
+.raindrop-solid.icon {
+    color: #147ba1;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: currentColor;
+    border: solid 1px currentColor;
+    border-radius: 60px 60px 60px 0;
+    -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+
+    animation: fadein_3 1.5s ease-in;
+}
+
+.drop_1 {
+    position: absolute;
+    left: 150px;
+    animation: drip 2s ease-in infinite;
+}
+
+.drop_2 {
+    position: absolute;
+    left: 225px;
+    animation: drip 3s ease-in infinite;
+}
+
+.drop_3 {
+    position: absolute;
+    left: 300px;
+    animation: drip 4s ease-in infinite;
+}
+
+.drop_4 {
+    position: absolute;
+    left: 375px;
+    animation: drip 5s ease-in infinite;
+}
+
+.drop_5 {
+    position: absolute;
+    left: 450px;
+    animation: drip 2s ease-in infinite;
+}
+
+.drop_6 {
+    position: absolute;
+    left: 525px;
+    animation: drip 2.2s ease-in infinite;
+}
+
+.drop_7 {
+    position: absolute;
+    left: 600px;
+    animation: drip 4s ease-in infinite;
+}
+
+.drop_8 {
+    position: absolute;
+    left:675px;
+    animation: drip 1.8s ease-in infinite;
+}
+
+.drop_9 {
+    position: absolute;
+    left: 750px;
+    animation: drip 4.3s ease-in infinite;
+}
+
+@keyframes drip {
+    to 
+    {
+        transform: translateY(100vh);
+    }
+}
+
+@keyframes fadein_1 {
+
+    from { color: #041920;}
+    to { color: #5ba3bd;}
+
+}
+
+@keyframes fadein_2 {
+
+    from { color: #041920;}
+    to { color: white;}
+
+}
+
+@keyframes fadein_3 {
+
+    from { color: #041920;}
+    to { color: #147ba1;}
+
+}

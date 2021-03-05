@@ -68,7 +68,7 @@ margin-left: 96vw;
     color: white;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 .text::selection {
@@ -88,25 +88,25 @@ margin-left: 96vw;
 }
 
 .cloud_1 {
-    animation: move 18s linear infinite;
+    animation: move 52s linear infinite;
     position: absolute;
     margin-top: 9vh;
 }
 
 .cloud_2 {
-    animation: move 24s linear infinite;
+    animation: move 35s linear infinite;
     position: absolute;
     margin-top: 18vh;
 }
 
 .cloud_3 {
-    animation: move 12s linear infinite;
+    animation: move 39s linear infinite;
     position: absolute;
     margin-top: 27vh;
 }
 
 .cloud_4 {
-    animation: move 27s linear infinite;
+    animation: move 48s linear infinite;
     position: absolute;
     margin-top: 36vh;
 }
