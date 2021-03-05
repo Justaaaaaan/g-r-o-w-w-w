@@ -1,34 +1,146 @@
+body{
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: brown;
+}
+
 .description {
-    top: 10px;
+    top: 33vh;
     position: absolute;
-    left: 15px;
-    color: black;
+    left: 5vw;
+    color: salmon;
     font-style: italic;
+    font-size: 1vw;
+
+    animation: fadein 1.5s ease-in;
 }
 
 .link {
     text-decoration: none;
 }
 
-.letters-g {
-    color: black;
-    right: 15px;
-    position:absolute;
-    bottom:15px;  
-    font-size: 3vw;
+.title {
+    position: absolute;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    left: 45vw;
+    top: -2vh;
+    font-size: 23vh;
+    color: salmon;
 }
 
-html, body {
-  height: 100%;
-  width: 100%;
-  padding: 0;
-  margin: 0;
+.letters-g {
+    position: absolute;
+    left: 97vw;
+    top: 91vh;
+    font-size: 3vw;
+    color: white;
 }
-#pixels {
-  width: 100%;
-  height: 100%;
+
+.worm_1 {
+    position: absolute;
+    width: 0vw;
+    height: 1vh;
+    top: 11vh;
+    left: 0vw;
+    background-color: salmon;
+    z-index: -1;
+
+    animation: worm_left 2s ease-in-out infinite;
 }
-.pixel {
-  background-color:sandybrown;
-  float: left;
+
+.worm_2 {
+    position: absolute;
+    width: 0vw;
+    height: 1vh;
+    top: 38vh;
+    left: 0vw;
+    background-color: salmon;
+    z-index: 0;
+
+    animation: fadein 1s ease-in;
+    animation: worm_left 2s 1s ease-in-out infinite;
 }
+
+.worm_3 {
+    position: absolute;
+    width: 0vw;
+    height: 1vh;
+    top: 57vh;
+    left: 0vw;
+    background-color: salmon;
+    z-index: 1;
+
+    animation: worm_left 2s  3s ease-in-out infinite;
+}
+
+.worm_4 {
+    position: absolute;
+    width: 0vw;
+    height: 1vh;
+    top: 84vh;
+    left: 0vw;
+    background-color: salmon;
+    z-index: 1;
+
+    animation: worm_left 2s 4s ease-in-out infinite;
+}
+
+@keyframes worm_left{
+    from {left:100vw; width: 100vw}
+    to {left:63vw; width: 0vw;}
+}
+
+@keyframes worm_right{
+    from {left:100vw;}
+    to {left:62vw; width: 0;}
+}
+
+.layer_1{
+    position: absolute;
+    width: 100vw;
+    height: 25vh;
+    top: 0vh;
+    left: 0vw;
+}
+
+.layer_2{
+    position: absolute;
+    width: 100vw;
+    height: 25vh;  
+    top: 25vh;  
+    left: 0vw;
+    background-color: #731d1d;
+
+    animation: fadein 1.5s ease-in;
+}
+
+.layer_3{
+    position: absolute;
+    width: 100vw;
+    height: 25vh;
+    top: 50vh;
+    left: 0vw;
+    background-color: #421111;
+
+    animation: fadein 2s ease-in;
+}
+
+.layer_4{
+    position: absolute;
+    width: 100vw;
+    height: 25vh;
+    top: 75vh;
+    left: 0vw;
+    background-color: #210808;
+
+    animation: fadein .5s ease-in;
+}
+
+@keyframes fadein{
+    from { opacity: 0%;}
+    to{ opacity: 100%;}
+}
+
