@@ -16,8 +16,18 @@ h1 {
 .link{
     color: white;
     position: absolute;
-    text-align: right;
-    margin-left: 96vw;
+    text-align: left;
+    margin-left: 1vw;
+}
+
+
+.letters-w {
+    color: white;
+    left: 0px;
+    position:absolute;
+    top:0px;  
+    font-size: 3vw;
+    text-decoration: none;
 }
 
 .bgimg {
