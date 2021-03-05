@@ -6,6 +6,14 @@ html, body {
     background-color: orange;
 }
 
+.description {
+    top: 10px;
+    position: absolute;
+    left: 15px;
+    color: yellow;
+    font-style: italic;
+}
+
 .link {
     text-decoration: none;
 }

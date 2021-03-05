@@ -49,3 +49,11 @@
     position:absolute;
     top:0px;  
 }
+
+.description {
+    bottom: 10px;
+    position: absolute;
+    right: 15px;
+    color: black;
+    font-style: italic;
+}

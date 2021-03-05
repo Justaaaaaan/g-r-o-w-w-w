@@ -7,10 +7,11 @@ body {
 }
 
 .description {
-    bottom:0px;
+    top: 10px;
     position: absolute;
-    right:0px;
+    right: 15px;
     color: white;
+    font-style: italic;
 }
 
 h1 {

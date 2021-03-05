@@ -35,15 +35,15 @@ h1 {
 }
 
 .citation {
-    top: 60vh;
-    left: 7vw;
+    top: 80vh;
+    right: 7vw;
     width: 30vw;
     position: absolute;
 }
 
 .citation p{
     color: white;
-    font-size: .8vw;
+    font-size: .5vw;
     animation: fadein_2 1.5s ease-in;
 }
 
@@ -74,6 +74,15 @@ h1 {
     position: absolute;
     text-align: right;
     top: 95vh;
+}
+
+.letters-r {
+    color: white;
+    left: 10px;
+    position:absolute;
+    bottom:0px;  
+    font-size: 3vw;
+    text-decoration: none;
 }
 
 a:visited {
